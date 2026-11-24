@@ -15,7 +15,9 @@ ARCHER is a third-person party arena where every shot is a slow, visible project
 
 ## Gameplay showcase
 
-`[drag ARCHER_showcase_720p.mp4 here]`
+
+https://github.com/user-attachments/assets/31682ee6-e6b0-49a4-94ad-6fe582029e88
+
 
 *46 s highlight reel — 1 player vs 3 practice bots, free-for-all, first to 15.*
 
@@ -25,14 +27,18 @@ ARCHER is a third-person party arena where every shot is a slow, visible project
 
 ## Networking
 
-`[drag ARCHER_netcode_720p.mp4 here]`
+
+https://github.com/user-attachments/assets/12112941-4491-4641-8960-8fbe3a478756
+
 
 *Two instances on one PC: left is the listen-server host, right is the client I control, with **~120 ms round trip and 1% packet loss** simulated in both directions (`NetEmulation.PktLag 60`, `PktLoss 1` on each side).*
 
-| Host watches the shot land | Moving target |
-|---|---|
-| ![Headshot from the host's view](media/net_headshot_host_view.gif) | ![Moving target](media/net_moving_target.gif) |
-| **Fire wall in sync** | **Frost field in sync** |
+| Host watches the shot land | Knockback, then the kill |
+|:---:|:---:|
+| ![Headshot from the host's view](media/net_headshot_host_view.gif) | ![Knockback then kill](media/net_knockback_then_kill.gif) |
+
+| Fire wall in sync | Frost field in sync |
+|:---:|:---:|
 | ![Fire wall](media/net_fire_sync.gif) | ![Frost field](media/net_frost_sync.gif) |
 
 ### How it works
@@ -83,6 +89,5 @@ Unreal Engine 5.8 · C++ (gameplay, UI, AI) · Steam sessions through my own reu
 ## Contact
 
 <!-- Add your links -->
-- LinkedIn: …
-- Portfolio: …
-- Email: …
+- LinkedIn: [leandro-shigaki](https://www.linkedin.com/in/leandro-shigaki/)
+- Email: leandroshigaki@gmail.com
